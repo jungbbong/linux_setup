@@ -1,0 +1,30 @@
+set enc=utf8
+set tenc=utf8
+set fenc=utf8
+
+set background=dark
+set tabstop=4
+set expandtab
+set autoindent
+set smartindent
+set cindent
+set shiftwidth=4
+set hlsearch
+set showmatch
+set paste!
+set title
+set laststatus=2
+set ruler
+set et
+set ignorecase
+set cursorline
+set incsearch
+set nocompatible
+set backspace=indent,eol,start
+
+syntax enable
+filetype on
+colorscheme elflord
+"""autocmd FileType python set autoindent"""
+
+"""map <leader>a :NERDTree<cr>"""
