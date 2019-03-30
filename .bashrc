@@ -9,12 +9,13 @@ fi
 export LC_ALL=ko_KR.UTF-8
 export LANG=ko_KR.UTF-8
 
+set -o vi
+alias vi='vim'
 alias c="clear"
 alias l="ls -l"
 alias ll="ls -al"
-alias vi='vim'
-set -o vi
 
+#git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # add git branch name to prompt
 parse_git_branch() {
